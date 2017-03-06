@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Ecowas</title>
+    <title>Câmara de Comércio, Desenvolvimento & Integração Brazil - Ecowas</title>
 
     <!-- CSS -->
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600,700|Roboto+Slab|Kanit" rel="stylesheet">
