@@ -77,7 +77,7 @@
                         </p>
                         <p class="orange">
                             A comunidade Econômica dos Estados da África 
-                            Ocidental é um grupo regional de 15 países da 
+                            Ocidental(CEDEAO / ECOWAS) é um grupo regional de 15 países da 
                             África Ocidental. Fundada em 25 de maio 1975, 
                             com a assinatura do Tratado de Lagos, a sua
                             missão é promover a integração econômica
@@ -196,7 +196,7 @@
                     </div>
                     <p>Como operador do Tribunal de Abirtragem da Câmara de Comércio, esta entidade tem uma estrutura das mais completas para assessorar empresas de qualquer segmento do mercado.</p>
                 </div>
-                <div class="col-lg-3 col-xs-12">
+                <!--div class="col-lg-3 col-xs-12">
                     <div class="head">
                         <img src="./media/descontos-especiais.png" alt="">
                         <h4>Descontos Especiais</h4>
@@ -204,7 +204,7 @@
                     <p>Donec sodales sagittis magna. Sed 
 consequat, eget bendum sodales,
 augue velit cursus nunc.</p>
-                </div>
+                </div-->
             </div>
         </div>
     </section>
