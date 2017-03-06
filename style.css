@@ -1,0 +1,324 @@
+body, html {
+  background-color: #fafafa;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+@media screen and (max-width: 480px) {
+  body, html {
+    text-align: justify;
+  }
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0 0 2.5em;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 18px;
+  color: #294f98;
+}
+
+section {
+  padding: 3em 0;
+}
+
+section.slider,
+section.galeria,
+section.mapa {
+  padding: 0;
+}
+
+.rowspace {
+  margin-bottom: 2em;
+}
+
+.fa-orange {
+  color: #eea236;
+}
+
+.menu-hide {
+  padding: 20px 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .menu-hide {
+    padding: 35px 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  header .logo img {
+    position: absolute;
+    top: 10px;
+    height: 140px;
+    width: 140px;
+  }
+}
+
+header .headercontact .row {
+  padding: 4em 0 2em 0;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+header .headercontact span {
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+header nav {
+  background-color: #dde1e5;
+  clear: both;
+}
+
+header nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: none;
+  transition: all .4s linear;
+}
+
+@media screen and (min-width: 1024px) {
+  header nav ul {
+    display: flex;
+    float: right !important;
+  }
+}
+
+header nav ul.open {
+  display: block;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  header nav ul.open {
+    padding: 0;
+  }
+}
+
+header nav ul li {
+  padding: 10px 0;
+  position: relative;
+  text-align: center;
+  flex: 1 1 100%;
+}
+
+header nav ul li.actv a {
+  color: #eea236;
+}
+
+header nav ul li.actv a::before {
+  content: '';
+  display: block;
+  margin: 0 auto;
+  height: 4px;
+  width: 20px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  background-color: currentColor;
+  right: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media screen and (min-width: 1024px) {
+  header nav ul li {
+    flex: 1 1 20%;
+  }
+}
+
+header nav ul li a {
+  font-family: "Raleway", sans-serif;
+  color: #3c4a59;
+  text-transform: uppercase;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+header nav ul li a:hover {
+  text-decoration: none;
+  color: #eea236;
+}
+
+header nav ul li a:hover::before {
+  content: '';
+  display: block;
+  margin: 0 auto;
+  height: 4px;
+  width: 20px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  background-color: currentColor;
+  right: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.slider {
+  display: block;
+  width: 100%;
+}
+
+.slider .slide {
+  height: 300px;
+  background-size: cover;
+  background-position: 33% 0;
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 1024px) {
+  .slider .slide {
+    background-position: center;
+    height: 450px;
+  }
+}
+
+.a_camara p {
+  font-weight: 600;
+  color: #74747b;
+}
+
+.a_camara p.orange {
+  color: #eea236;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.galeria a {
+  position: relative;
+  display: block;
+}
+
+.galeria a::after {
+  content: '';
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  height: 25px;
+  width: 25px;
+  background-image: url("./media/lupa-trans.png");
+}
+
+.promovemos {
+  margin-bottom: 2em;
+}
+
+.promovemos h3 {
+  color: #294f98;
+  font-size: 20px;
+  font-family: 'Roboto Slab', serif;
+}
+
+.promovemos p {
+  color: #74747b;
+}
+
+.promovemos .service {
+  margin-bottom: 10px;
+}
+
+.promovemos .img img {
+  width: 100%;
+  max-height: 265px;
+}
+
+.promovemos .desc {
+  box-shadow: 1px 2px 13px #888888;
+  padding: 1em 2em;
+}
+
+.oquefazemos {
+  background-image: url("./media/bg-fazemos.jpg");
+  background-size: cover;
+  padding-bottom: 3em;
+  text-align: center;
+}
+
+.oquefazemos .head {
+  display: block;
+  padding: 20px 0;
+}
+
+.oquefazemos .head img {
+  display: block;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 1200px) {
+  .oquefazemos .head img {
+    float: left;
+  }
+}
+
+.oquefazemos .head h4 {
+  text-align: center;
+}
+
+.contato {
+  background-color: #1b2539;
+  color: #FFF;
+}
+
+.contato h3 {
+  padding: 0 0 .5em 0;
+  margin: 0;
+  color: #eea236;
+}
+
+.contato p {
+  color: #94979e;
+  font-size: 14px;
+  line-height: 22px;
+  font-family: "Raleway", sans-serif;
+}
+
+.contato .form input, .contato .form textarea {
+  font-family: 'Kanit', sans-serif;
+  padding: 1.5em 1em;
+  text-transform: uppercase;
+}
+
+.contato textarea {
+  resize: none;
+}
+
+.contato .form input[type="submit"] {
+  background-color: #eea236;
+  border: none;
+  border-radius: 2px;
+  transition: all .2s ease-in-out;
+}
+
+.contato .form input[type="submit"]:hover {
+  border: 1px solid #eea236;
+  background-color: transparent;
+  color: #eea236;
+}
+
+@media screen and (max-width: 767px) {
+  .contato .form input[type="email"] {
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .contato .contatos {
+    padding: 2em 0 0 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .slick-slide img {
+    width: 100%;
+  }
+}
